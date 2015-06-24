@@ -1,0 +1,7 @@
+name = California Audiovisual Preservation Project
+description = "Customizations for CAVPP"
+package = Islandora
+dependencies[] = islandora
+dependencies[] = xml_form_builder
+version = 7.x-dev
+core = 7.x

@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ * Hooks for CAVPP for the time being.
+ */
+
+/**
+ * Implements hook_xml_form_builder_get_transforms().
+ */
+function cavppdora_xml_form_builder_get_transforms() {
+  $module_path = drupal_get_path('module', 'cavppdora');
+  return array(
+    'cavppav2dc.xsl' => "$module_path/transforms/CAVPPAV2DC.xsl",
+  );
+}
